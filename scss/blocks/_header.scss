@@ -1,0 +1,42 @@
+header {
+    background-color: #fff;
+    padding: 21px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 99999;
+
+    .head {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        &__list {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            column-gap: 48px;
+        }
+
+        &__link {
+            font-weight: 500;
+            color: #546C80;
+
+            &:hover {
+                color: #303E49;
+            }
+        }
+
+        &__btn {
+            cursor: pointer;
+            background: #282A2C;
+            border-radius: 10px;
+            padding: 15px 25px;
+            line-height: 20px;
+            color: #FFFFFF;
+            border: none;
+        }
+    }
+}

@@ -1,0 +1,108 @@
+footer {
+    background: #1D2225;
+    padding: 64px 0;
+
+    .foo {
+
+        &__top {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            column-gap: 71px;
+        }
+
+        &__left {
+            margin-top: 15px;
+        }
+
+        &__text {
+            font-size: 14px;
+            line-height: 18px;
+            color: #FFFFFF;
+            max-width: 211px;
+            margin-top: 15px;
+        }
+
+        &__middle {
+            display: flex;
+            justify-content: space-between;
+            column-gap: 71px;
+        }
+
+        &__title {
+            font-weight: 500;
+            line-height: 20px;
+            color: #FFFFFF;
+        }
+
+        &__list {
+            display: flex;
+            flex-direction: column;
+            row-gap: 11px;
+            margin-top: 20px;
+        }
+
+        &__link {
+            font-size: 14px;
+            line-height: 18px;
+            color: #FFFFFF;
+        }
+
+        &__more-text {
+            font-size: 14px;
+            line-height: 18px;
+            color: #FFFFFF;
+            max-width: 248px;
+            margin-top: 29px;
+        }
+
+        &__form {
+            margin-top: 37px;
+            display: flex;
+            column-gap: 26px;
+
+            input {
+                border: 1px solid #FFFFFF;
+                background: none;
+                padding: 15px 13px;
+                outline: none;
+
+                &::placeholder {
+                    line-height: 20px;
+                    color: #B8B8B8;
+                }
+            }
+        }
+
+        &__btn {
+            background: #3A78F2;
+            padding: 15px 23px;
+            border: none;
+            font-weight: 500;
+            line-height: 20px;
+            color: #FFFFFF;
+            cursor: pointer;
+        }
+
+        &__bottom {
+            margin-top: 104px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            &-text {
+                font-size: 14px;
+                line-height: 18px;
+                color: #FFFFFF;
+            }
+        }
+
+        &__social {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            column-gap: 27px;
+            cursor: pointer;
+        }
+    }
+}
